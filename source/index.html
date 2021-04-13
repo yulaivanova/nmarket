@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/roboto-regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-500.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-700.woff2" as="font" crossorigin="anonymous">
+</head>
+<body>
+  <div style="display: none;">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+  <div class="wrapper">
+    <section class="offer">
+      <button type="button" class="offer__toggle" tabindex="2"><span class="visually-hidden">Закрыть окно</span></button>
+      <div class="offer__description">
+        <picture>
+          <source type="image/webp"
+            srcset="img/flat@1x.webp 1x, img/flat@2x.webp 2x">
+          <img src="img/flat@1x.jpg" srcset="img/flat@2x.jpg 2x"
+            alt="Flat image" width="178" height="178">
+        </picture>
+        <div class="offer__inner">
+          <h1>2-к квартира</h1>
+          <ul class="offer__desc-list">
+            <li class="offer__desk-item">
+              <span>Этаж</span>
+              <p>3 из 19</p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Общая площадь</span>
+              <p>32,24 м<sup>2</sup></p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Высота потолков</span>
+              <p>3,2 м</p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Жилая площадь</span>
+              <p>22,24 м<sup>2</sup></p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Отделка</span>
+              <p>Предчистовая</p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Площадь кухни</span>
+              <p>14,24 м<sup>2</sup></p>
+            </li>
+          </ul>
+          <div class="offer__add-info">
+            <div class="offer__add-item offer__add-item--viewing">
+              <svg width="12" height="9">
+                <use xlink:href="#yes-icon"></use>
+              </svg>
+              <p>Вы были на просмотре</p>
+            </div>
+            <div class="offer__add-item offer__add-item--bank">
+              <svg width="11" height="11">
+                <use xlink:href="#x-icon"></use>
+              </svg>
+              <p>Дом аккредитован другим банком</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offer__order">
+        <p>Ваша цена по брони до <span>19 сентября</span></p>
+        <p class="offer__price">3 312 666 Р</p>
+        <p>Текущая цена у застройщика дороже на <span>324 825 Р</span></p>
+        <a href="#" class="offer__button" tabindex="1">
+          <svg class="offer__icon" width="13" height="13">
+            <use xlink:href="#key-icon"></use>
+          </svg>
+          Выбрать для покупки
+        </a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

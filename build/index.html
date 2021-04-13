@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/roboto-regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-500.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-700.woff2" as="font" crossorigin="anonymous">
+</head>
+<body>
+  <div style="display: none;">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="key-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.683 5.563a4 4 0 10-2.122 2.12l1.127 1.128a.25.25 0 00.226.069l1.269-.254a.25.25 0 01.294.294L8.27 9.951a.25.25 0 00.294.295l1.033-.206a.25.25 0 01.294.294l-.253 1.27a.25.25 0 00.068.225l.141.141a.5.5 0 00.283.142l.99.141a1 1 0 001.132-1.131l-.142-.99a.5.5 0 00-.141-.283L7.683 5.563zM3.5 5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" fill="#383736"></path></symbol><symbol id="x-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.536 1.05a1 1 0 111.414 1.414L7.414 6l3.536 3.536a1 1 0 11-1.414 1.414L6 7.414 2.464 10.95A1 1 0 011.05 9.536L4.586 6 1.05 2.464A1 1 0 112.464 1.05L6 4.586 9.536 1.05z" fill="#EB4B51"></path></symbol><symbol id="yes-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.022a1 1 0 01-.001 1.414l-6.53 6.53a1 1 0 01-1.384.03L.825 6.01a1 1 0 111.352-1.474l2.201 2.017a.5.5 0 00.692-.015l5.515-5.515a1 1 0 011.414 0z" fill="#64B851"></path></symbol></svg>
+  </div>
+  <div class="wrapper">
+    <section class="offer">
+      <button type="button" class="offer__toggle" tabindex="2"><span class="visually-hidden">Закрыть окно</span></button>
+      <div class="offer__description">
+        <picture>
+          <source type="image/webp" srcset="img/flat@1x.webp 1x, img/flat@2x.webp 2x">
+          <img src="img/flat@1x.jpg" srcset="img/flat@2x.jpg 2x" alt="Flat image" width="178" height="178">
+        </picture>
+        <div class="offer__inner">
+          <h1>2-к квартира</h1>
+          <ul class="offer__desc-list">
+            <li class="offer__desk-item">
+              <span>Этаж</span>
+              <p>3 из 19</p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Общая площадь</span>
+              <p>32,24 м<sup>2</sup></p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Высота потолков</span>
+              <p>3,2 м</p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Жилая площадь</span>
+              <p>22,24 м<sup>2</sup></p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Отделка</span>
+              <p>Предчистовая</p>
+            </li>
+            <li class="offer__desk-item">
+              <span>Площадь кухни</span>
+              <p>14,24 м<sup>2</sup></p>
+            </li>
+          </ul>
+          <div class="offer__add-info">
+            <div class="offer__add-item offer__add-item--viewing">
+              <svg width="12" height="9">
+                <use xlink:href="#yes-icon"></use>
+              </svg>
+              <p>Вы были на просмотре</p>
+            </div>
+            <div class="offer__add-item offer__add-item--bank">
+              <svg width="11" height="11">
+                <use xlink:href="#x-icon"></use>
+              </svg>
+              <p>Дом аккредитован другим банком</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offer__order">
+        <p>Ваша цена по брони до <span>19 сентября</span></p>
+        <p class="offer__price">3 312 666 Р</p>
+        <p>Текущая цена у застройщика дороже на <span>324 825 Р</span></p>
+        <a href="#" class="offer__button" tabindex="1">
+          <svg class="offer__icon" width="13" height="13">
+            <use xlink:href="#key-icon"></use>
+          </svg>
+          Выбрать для покупки
+        </a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
